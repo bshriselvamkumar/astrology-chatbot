@@ -82,4 +82,5 @@ if question := st.chat_input("ஜோதிட கேள்வியை கேள
             reply = query_model(question)
             st.markdown(reply)
 
-    st.session_state.messages.append({"role": "assistant", "content": reply})
+
+    st.session_state.messages.append({"role": "assistant", "content": reply})  
