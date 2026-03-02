@@ -18,7 +18,7 @@ if "HF_TOKEN" not in st.secrets:
 
 HF_TOKEN = st.secrets["HF_TOKEN"]
 
-API_URL = "https://api-inference.huggingface.co/models/google/gemma-2b-it"
+API_URL = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.2"
 HEADERS = {"Authorization": f"Bearer {HF_TOKEN}"}
 
 # ----------------------------------
